@@ -1,0 +1,90 @@
+/* 0.390625 * 100vh( telefon ucun 576px,  tablet 576px - 772px, */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #da690c;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+header nav .logo {
+  width: 10%;
+}
+header nav .logo a {
+  text-decoration: none;
+  color: black;
+}
+header nav .basket {
+  width: 10%;
+}
+header nav .basket a {
+  text-decoration: none;
+  color: black;
+}
+header nav .basket a i {
+  position: relative;
+  cursor: pointer;
+}
+header nav .basket a i span {
+  position: absolute;
+  top: -40%;
+  right: -50%;
+  background-color: aliceblue;
+  border-radius: 100%;
+  padding: 3px;
+  font-size: 10px;
+}
+
+.products {
+  padding: 2rem 0;
+}
+.products .top {
+  margin: 1rem 0;
+}
+.products .bottom .card img {
+  height: 30vh;
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: 10px;
+}
+.products .bottom .card a {
+  margin-top: 1rem;
+}
+
+.products_chart {
+  padding: 1rem 0;
+}
+.products_chart .chart {
+  width: 100%;
+  padding: 20px;
+}
+.products_chart .chart ul {
+  margin: 5px 0;
+  border: 1px solid rgb(0, 0, 0);
+  list-style: none;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.products_chart .chart ul li {
+  width: 20%;
+  text-align: center;
+  font-size: 20px;
+  padding: 5px;
+}
+.products_chart .chart ul li img {
+  width: 30%;
+}
+.products_chart .chart ul li input {
+  width: 50px;
+  height: 30px;
+  padding: 10px;
+}/*# sourceMappingURL=Style.css.map */
